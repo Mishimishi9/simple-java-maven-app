@@ -23,7 +23,7 @@ pipeline {
         }
 	  stage('complete') {
             steps {
-                sh 'job is done from webhooks'
+                echo 'job is done from webhooks'
             }
         }
     }
